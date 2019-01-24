@@ -1,0 +1,24 @@
+This program conists of the following three files:
+
+Main:
+This is file consists of a main class and method with test cases that use the Firewall class to demonstrate
+the fuctionality of the accept_packet method.
+
+FirewallInterface:
+This file consists of the interface that is implemented in the Firewall class. It dictates the structure of the Firewall Class.
+
+Firewall:
+This file consists of the Firewall class , which implements the Firewall Interface. In this class, supplied packet characteristcs are
+tested in a manner that will short circuit as soon as an invalid parameter is found. Additionally, the Firewall objects have one private
+data member, filename, which is the .csv file name that is supplied to the constructor. There are also 4 private methods that each test one
+of the four parameters for a packs and return a boolean value.
+
+Notes:
+#1 If I had been given more time, I would have liked to have built a test harness to run through all the variations on inputs, instead
+of the handful of edge cases used in the main class.
+
+#2 In the portion of the code that tests the IP address , there is a nested for loop, which I would have liked to reduce the big O complexity
+but did not come up with a more efficient solution in the alotted time.
+
+#3 Thank you for checking out my code!
+
